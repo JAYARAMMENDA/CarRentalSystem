@@ -1,4 +1,4 @@
-/*
+
 package com.example.netcracker.service;
 
 import com.example.netcracker.model.Car;
@@ -21,10 +21,10 @@ public class SpecificationService implements SpecificationRepository {
     private SpecificationRepository specificRepository;
     @Override
     public Integer saveSpecification(Specification specification) {
-       */
+
 /*Specification specific=specificRepository.save(specification);
         Integer id=specific.getId();
-        return id;*//*
+        return id;*/
 
         return specificRepository.save(specification).getId();
     }
@@ -47,8 +47,8 @@ public class SpecificationService implements SpecificationRepository {
         if(specification.isPresent()) {
             return specification.get();
         }
-        */
-/*Throw the Exception Need to Implement*//*
+
+/*Throw the Exception Need to Implement*/
 
         return null;
     }
@@ -215,4 +215,4 @@ public class SpecificationService implements SpecificationRepository {
         return null;
     }
 }
-*/
+

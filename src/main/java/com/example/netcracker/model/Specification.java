@@ -1,4 +1,4 @@
-/*
+
 package com.example.netcracker.model;
 
 import jakarta.persistence.Entity;
@@ -32,4 +32,4 @@ public class Specification implements Serializable {
     private String Origin;
 
 }
-*/
+

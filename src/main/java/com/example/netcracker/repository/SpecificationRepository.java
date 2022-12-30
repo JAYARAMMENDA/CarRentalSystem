@@ -1,4 +1,4 @@
-/*
+
 package com.example.netcracker.repository;
 
 
@@ -19,4 +19,4 @@ public interface SpecificationRepository extends JpaRepository<Specification, In
     public void deleteSpecification(int SpecificId);
     public void updateSpecification(Specification specification);
 }
-*/
+
