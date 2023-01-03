@@ -2,7 +2,7 @@ package com.example.netcracker.controller;
 
 import com.example.netcracker.model.Car;
 import com.example.netcracker.service.CarService;
-//import com.example.netcracker.service.SpecificationService;
+import com.example.netcracker.service.SpecificationService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
